@@ -7,7 +7,7 @@ with different concerns.
 
 ## Installation
 
-    npm install @g2crowd/extractOptions --save
+    npm install @g2crowd/extract-options --save
 
 ## Usage
 

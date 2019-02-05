@@ -1,5 +1,5 @@
 {
-  "name": "@g2crowd/extractOptions",
+  "name": "@g2crowd/extract-options",
   "version": "1.0.0",
   "description": "Pull namespaced options out of a hash",
   "main": "index.js",
