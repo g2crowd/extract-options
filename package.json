@@ -1,0 +1,21 @@
+{
+  "name": "@g2crowd/extractOptions",
+  "version": "1.0.0",
+  "description": "Pull namespaced options out of a hash",
+  "main": "index.js",
+  "repository": "https://github.com/g2crowd/extractOptions.git",
+  "author": "Michael Wheeler",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0",
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "core-js": "^2.6.3"
+  }
+}
