@@ -14,6 +14,7 @@ with different concerns.
 This will create a new hash, seperating out keys based on a common prefix:
 
 ```javascript
+import {extractOptions} from '@g2crowd/extract-options';
 const startingHash = { prefixOne: 1, prefixTwo: 2, otherKey: 3 };
 
 extractOptions('prefix', startingHash); //=> { one: 1, two: 2 }

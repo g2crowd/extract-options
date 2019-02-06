@@ -1,6 +1,6 @@
 {
   "name": "@g2crowd/extract-options",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pull namespaced options out of a hash",
   "main": "index.js",
   "repository": "https://github.com/g2crowd/extractOptions.git",
