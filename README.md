@@ -17,7 +17,7 @@ This will create a new hash, seperating out keys based on a common prefix:
 import { extractOptions } from '@g2crowd/extract-options';
 const startingHash = { prefixOne: 1, prefixTwo: 2, otherKey: 3 };
 
-extractOptions('prefix', startingHash); //=> { one: 1, two: 2 }
+extractOptions(startingHash, 'prefix'); //=> { one: 1, two: 2 }
 ```
 
 It will treat keys with an `Options` suffix as special. It will expect a hash of raw options to follow:
@@ -25,7 +25,7 @@ It will treat keys with an `Options` suffix as special. It will expect a hash of
 ```javascript
 const startingHash = { prefixOne: 1, prefixTwo: 2, otherKey: 3, prefixOptions: { three: 3 } };
 
-extractOptions('prefix', startingHash); //=> { one: 1, two: 2, three: 3 }
+extractOptions(startingHash, 'prefix'); //=> { one: 1, two: 2, three: 3 }
 ```
 
 Pairs nicely with `jQuery.data`:
@@ -36,5 +36,5 @@ Pairs nicely with `jQuery.data`:
 
 ```javascript
 let data = $('#element').data();
-const options = extractOptions('prefix', data); //=> { one: 1, two: 2 }
+const options = extractOptions(data, 'prefix'); //=> { one: 1, two: 2 }
 ```
