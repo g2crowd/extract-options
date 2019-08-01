@@ -20,7 +20,8 @@
     "publish": "pack publish",
     "build": "pack build",
     "test": "jest",
-    "watch": "jest --watchAll"
+    "watch": "jest --watchAll",
+    "version": "npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
@@ -30,6 +31,7 @@
     "@pika/plugin-standard-pkg": "^0.3.10",
     "core-js": "^2.6.3",
     "jest": "^24.8.0",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "npm": "^6.10.2"
   }
 }
