@@ -17,6 +17,8 @@
   },
   "private": false,
   "scripts": {
+    "publish": "pack publish",
+    "build": "pack build",
     "test": "jest",
     "watch": "jest --watchAll"
   },
