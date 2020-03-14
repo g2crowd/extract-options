@@ -5,8 +5,10 @@ export default function(data, namespace) {
   return Object.keys(data).reduce((memo, key) => {
     let value = data[key];
     const prop = key.replace(regex, format);
-    if (value === '') { value = undefined; }
+    if (value === '') {
+      value = undefined;
+    }
     memo[prop] = value;
     return memo;
   }, {});
-};
+}
