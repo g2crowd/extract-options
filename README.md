@@ -1,4 +1,4 @@
-# extractOptions
+# extract-options
 
 This package is responsible for extracting a subset of a hash, based on a namespaced key.
 
