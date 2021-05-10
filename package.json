@@ -17,21 +17,20 @@
   },
   "private": false,
   "scripts": {
-    "publish": "pack publish",
-    "build": "pack build",
+    "publish": "pika publish",
+    "build": "pika build",
     "test": "jest",
     "watch": "jest --watchAll",
     "version": "npm run build"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.10",
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
     "@pika/pack": "^0.5.0",
     "@pika/plugin-build-web": "^0.9.2",
     "@pika/plugin-standard-pkg": "^0.9.2",
-    "core-js": "^3.8.1",
     "jest": "^26.6.3",
-    "prettier": "^1.19.1"
+    "prettier": "^2.3.0"
   }
 }
