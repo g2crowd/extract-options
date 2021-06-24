@@ -1,6 +1,6 @@
 {
   "name": "@g2crowd/extract-options",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Pull namespaced options out of a hash",
   "repository": "https://github.com/g2crowd/extract-options.git",
   "author": "Michael Wheeler",
