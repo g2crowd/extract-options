@@ -31,7 +31,7 @@ extractOptions(startingHash, 'prefix'); //=> { one: 1, two: 2, three: 3 }
 Pairs nicely with `jQuery.data`:
 
 ```html
-<div id='element' data-prefix-one=1 data-prefix-two=2 data-other-key=3></div>
+<div id="element" data-prefix-one="1" data-prefix-two="2" data-other-key="3"></div>
 ```
 
 ```javascript

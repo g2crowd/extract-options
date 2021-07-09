@@ -1,4 +1,4 @@
-export default function(data, namespace) {
+export default function (data, namespace) {
   const regex = new RegExp(namespace + '_?([\\w])([\\w]+)', 'i');
   const format = (_, first, rest) => first.toLowerCase() + rest;
 
