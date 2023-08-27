@@ -3,8 +3,8 @@ import stripNamespace from '../src/stripNamespace';
 describe('stripNamespace', function () {
   describe('with keys in namespace', function () {
     it('strips the name', function () {
-      let obj = { nameSome: 1, nameThing: 2 };
-      expect(stripNamespace(obj, 'name')).toEqual({ some: 1, thing: 2 });
+      let obj = {nameSome: 1, nameThing: 2, nameZ: 'z'};
+      expect(stripNamespace(obj, 'name')).toEqual({some: 1, thing: 2, z: 'z'});
     });
   });
 

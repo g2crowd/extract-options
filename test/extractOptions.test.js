@@ -31,8 +31,8 @@ describe('extractOptions', function () {
 
   describe('with some keys in namespace', function () {
     it('return the namespaced keys', function () {
-      let obj = { some: 1, nameThing: 2 };
-      expect(subject(obj, 'name')).toEqual({ thing: 2 });
+      let obj = {some: 1, nameThing: 2, nameZ: 'z'};
+      expect(subject(obj, 'name')).toEqual({thing: 2, z: 'z'});
     });
   });
 
