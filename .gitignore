@@ -4,3 +4,4 @@ pkg/
 *.log
 *.iml
 coverage
+*.tern-port
