@@ -5,7 +5,6 @@
   "repository": "https://github.com/g2crowd/extract-options.git",
   "author": "Michael Wheeler",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "test": "jest",
     "watch": "jest --watchAll"
@@ -22,5 +21,6 @@
   "main": "src/index.js",
   "files": [
     "src/*"
-  ]
+  ],
+  "packageManager": "yarn@4.18.1"
 }
