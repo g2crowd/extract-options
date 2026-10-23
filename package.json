@@ -22,5 +22,6 @@
   "main": "src/index.js",
   "files": [
     "src/*"
-  ]
+  ],
+  "packageManager": "yarn@4.18.1"
 }
